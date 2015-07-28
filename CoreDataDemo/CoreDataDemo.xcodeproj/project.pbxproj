@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E105E19A1B620255004343CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E105E1991B620255004343CC /* AppDelegate.swift */; };
-		E105E19D1B620255004343CC /* CoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E105E19B1B620255004343CC /* CoreDataDemo.xcdatamodeld */; };
-		E105E19F1B620255004343CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E105E19E1B620255004343CC /* ViewController.swift */; };
-		E105E1A21B620255004343CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E105E1A01B620255004343CC /* Main.storyboard */; };
 		E105E1A41B620255004343CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E105E1A31B620255004343CC /* Images.xcassets */; };
 		E105E1A71B620255004343CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E105E1A51B620255004343CC /* LaunchScreen.xib */; };
 		E105E1B31B620255004343CC /* CoreDataDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E105E1B21B620255004343CC /* CoreDataDemoTests.swift */; };
@@ -30,9 +27,6 @@
 		E105E1941B620255004343CC /* CoreDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E105E1981B620255004343CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E105E1991B620255004343CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E105E19C1B620255004343CC /* CoreDataDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataDemo.xcdatamodel; sourceTree = "<group>"; };
-		E105E19E1B620255004343CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E105E1A11B620255004343CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E105E1A31B620255004343CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E105E1A61B620255004343CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E105E1AC1B620255004343CC /* CoreDataDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,11 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				E105E1991B620255004343CC /* AppDelegate.swift */,
-				E105E19E1B620255004343CC /* ViewController.swift */,
-				E105E1A01B620255004343CC /* Main.storyboard */,
 				E105E1A31B620255004343CC /* Images.xcassets */,
 				E105E1A51B620255004343CC /* LaunchScreen.xib */,
-				E105E19B1B620255004343CC /* CoreDataDemo.xcdatamodeld */,
 				E105E1971B620255004343CC /* Supporting Files */,
 			);
 			path = CoreDataDemo;
@@ -195,7 +186,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E105E1A21B620255004343CC /* Main.storyboard in Resources */,
 				E105E1A71B620255004343CC /* LaunchScreen.xib in Resources */,
 				E105E1A41B620255004343CC /* Images.xcassets in Resources */,
 			);
@@ -215,9 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E105E19F1B620255004343CC /* ViewController.swift in Sources */,
 				E105E19A1B620255004343CC /* AppDelegate.swift in Sources */,
-				E105E19D1B620255004343CC /* CoreDataDemo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,14 +228,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E105E1A01B620255004343CC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E105E1A11B620255004343CC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E105E1A51B620255004343CC /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -415,6 +395,7 @@
 				E105E1B81B620255004343CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E105E1B91B620255004343CC /* Build configuration list for PBXNativeTarget "CoreDataDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -423,21 +404,9 @@
 				E105E1BB1B620255004343CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		E105E19B1B620255004343CC /* CoreDataDemo.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				E105E19C1B620255004343CC /* CoreDataDemo.xcdatamodel */,
-			);
-			currentVersion = E105E19C1B620255004343CC /* CoreDataDemo.xcdatamodel */;
-			path = CoreDataDemo.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = E105E18C1B620255004343CC /* Project object */;
 }
