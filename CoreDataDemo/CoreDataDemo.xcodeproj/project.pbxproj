@@ -11,6 +11,11 @@
 		E105E1A41B620255004343CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E105E1A31B620255004343CC /* Images.xcassets */; };
 		E105E1A71B620255004343CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E105E1A51B620255004343CC /* LaunchScreen.xib */; };
 		E105E1B31B620255004343CC /* CoreDataDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E105E1B21B620255004343CC /* CoreDataDemoTests.swift */; };
+		E1B8A9A01B677C81003D8269 /* CoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1B8A99E1B677C81003D8269 /* CoreDataDemo.xcdatamodeld */; };
+		E1B8A9A51B677CA4003D8269 /* AddDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B8A9A11B677CA4003D8269 /* AddDataVC.swift */; };
+		E1B8A9A61B677CA4003D8269 /* ChangeInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B8A9A21B677CA4003D8269 /* ChangeInfoVC.swift */; };
+		E1B8A9A71B677CA4003D8269 /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B8A9A31B677CA4003D8269 /* TableVC.swift */; };
+		E1B8A9A81B677CA4003D8269 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B8A9A41B677CA4003D8269 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +37,11 @@
 		E105E1AC1B620255004343CC /* CoreDataDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E105E1B11B620255004343CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E105E1B21B620255004343CC /* CoreDataDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataDemoTests.swift; sourceTree = "<group>"; };
+		E1B8A99F1B677C81003D8269 /* CoreDataDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataDemo.xcdatamodel; sourceTree = "<group>"; };
+		E1B8A9A11B677CA4003D8269 /* AddDataVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddDataVC.swift; path = ../../../../iOS/CoreDataDemo/CoreDataDemo/AddDataVC.swift; sourceTree = "<group>"; };
+		E1B8A9A21B677CA4003D8269 /* ChangeInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangeInfoVC.swift; path = ../../../../iOS/CoreDataDemo/CoreDataDemo/ChangeInfoVC.swift; sourceTree = "<group>"; };
+		E1B8A9A31B677CA4003D8269 /* TableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableVC.swift; path = ../../../../iOS/CoreDataDemo/CoreDataDemo/TableVC.swift; sourceTree = "<group>"; };
+		E1B8A9A41B677CA4003D8269 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../iOS/CoreDataDemo/CoreDataDemo/ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +84,12 @@
 			isa = PBXGroup;
 			children = (
 				E105E1991B620255004343CC /* AppDelegate.swift */,
+				E1B8A9A11B677CA4003D8269 /* AddDataVC.swift */,
+				E1B8A9A21B677CA4003D8269 /* ChangeInfoVC.swift */,
+				E1B8A9A31B677CA4003D8269 /* TableVC.swift */,
+				E1B8A9A41B677CA4003D8269 /* ViewController.swift */,
 				E105E1A31B620255004343CC /* Images.xcassets */,
+				E1B8A99E1B677C81003D8269 /* CoreDataDemo.xcdatamodeld */,
 				E105E1A51B620255004343CC /* LaunchScreen.xib */,
 				E105E1971B620255004343CC /* Supporting Files */,
 			);
@@ -205,7 +220,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1B8A9A81B677CA4003D8269 /* ViewController.swift in Sources */,
+				E1B8A9A61B677CA4003D8269 /* ChangeInfoVC.swift in Sources */,
 				E105E19A1B620255004343CC /* AppDelegate.swift in Sources */,
+				E1B8A9A01B677C81003D8269 /* CoreDataDemo.xcdatamodeld in Sources */,
+				E1B8A9A71B677CA4003D8269 /* TableVC.swift in Sources */,
+				E1B8A9A51B677CA4003D8269 /* AddDataVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +427,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E1B8A99E1B677C81003D8269 /* CoreDataDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E1B8A99F1B677C81003D8269 /* CoreDataDemo.xcdatamodel */,
+			);
+			currentVersion = E1B8A99F1B677C81003D8269 /* CoreDataDemo.xcdatamodel */;
+			path = CoreDataDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E105E18C1B620255004343CC /* Project object */;
 }
